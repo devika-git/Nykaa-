@@ -16,7 +16,7 @@ pipeline {
                            stage('Deployment'){
                                steps {
                        
-                                       sh 'cp target/Nykaa.war  /home/devkanya/Documents/Devops-tools/apache-tomcat-9.0.73/webapps'
+                                       sh 'cp  /target/Nykaa.war  /home/devkanya/Documents/Devops-tools/apache-tomcat-9.0.73/webapps'
                                        
         }
 
